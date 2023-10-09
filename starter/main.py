@@ -1,7 +1,7 @@
 # Put the code for your API here.
 import os
 from fastapi import FastAPI
-from typing import Literal
+from typing_extensions import Literal
 import pandas as pd
 import numpy as np
 import uvicorn
